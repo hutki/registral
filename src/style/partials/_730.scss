@@ -1,0 +1,31 @@
+@media (max-width: 730px)
+{
+#content_block{
+	h1{
+		padding: 0 10px;
+	}
+	.img_left{
+		float: left;
+		 margin: 0 30px 30px 0;
+	}
+	.img_right{
+		float: right;
+		 margin:30px 0 30px 30px;
+	}
+}
+.footer-block {
+	.f_contact {
+		.f_add{
+			width:280px;
+			.social{
+				 margin-top: 10px;
+			}
+		}
+	}
+}
+.copyrait{
+	margin: 20px auto 0;
+}
+}
+
+

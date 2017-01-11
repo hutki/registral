@@ -1,0 +1,2277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"animate"
+			],
+			[
+				"c",
+				"children"
+			],
+			[
+				"h",
+				"hover\t(style.css)"
+			],
+			[
+				"f",
+				"fun\tFunction"
+			],
+			[
+				"p",
+				"pointer"
+			],
+			[
+				"r",
+				"right\t(_header.scss)"
+			],
+			[
+				"no",
+				"no-repeat\t(_header.scss)"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"hi",
+				"height"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"filt",
+				"filtText"
+			],
+			[
+				"is",
+				"isSelected"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"o",
+				"option\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/vit/www/Бэкапы/build/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1004,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*\n* Third Party\n*/\n/*@import \"../../bower_components/normalize.css/normalize.css\";\n/*\n* Custom\n*/\n/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */\n/**\n * 1. Change the default font family in all browsers (opinionated).\n * 2. Correct the line height in all browsers.\n * 3. Prevent adjustments of font size after orientation changes in\n *    IE on Windows Phone and in iOS.\n */\n/* Document\n   ========================================================================== */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  line-height: 1.15;\n  /* 2 */\n  -ms-text-size-adjust: 100%;\n  /* 3 */\n  -webkit-text-size-adjust: 100%;\n  /* 3 */\n}\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0;\n}\n\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/* Grouping content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in IE.\n */\nfigcaption,\nfigure,\nmain {\n  /* 1 */\n  display: block;\n}\n\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */\n}\n\n/**\n * Remove the outline on focused links when they are also active or hovered\n * in all browsers (opinionated).\n */\na:active,\na:hover {\n  outline-width: 0;\n}\n\n/**\n * 1. Remove the bottom border in Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */\n}\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit;\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic;\n}\n\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block;\n}\n\n/**\n * Add the correct display in iOS 4-7.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none;\n}\n\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: sans-serif;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none;\n}\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Change the border, margin, and padding in all browsers (opinionated).\n */\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */\n}\n\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */\n}\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n */\ndetails,\nmenu {\n  display: block;\n}\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item;\n}\n\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block;\n}\n\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none;\n}\n\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  color: #333;\n  background-color: #f2f2f2;\n  font-family: Gotham Pro Light;\n}\n\n.clear {\n  clear: both;\n}\n\n/***************HEADER********************/\n#top_panel {\n  width: 100%;\n  position: absolute;\n  color: #fff;\n}\n\n.centr_block {\n  margin: 0 auto;\n  width: 100%;\n  max-width: 1080px;\n  height: 62px;\n  position: relative;\n  top: 15px;\n  font-size: 15px;\n}\n\n.centr_block nav {\n  width: 70%;\n  padding: 0 15px;\n  position: relative;\n}\n\n.centr_block nav ul li {\n  list-style-type: none;\n  float: left;\n  text-transform: uppercase;\n  margin: 22px 94px 0 0;\n}\n\n.centr_block nav ul li span {\n  cursor: pointer;\n}\n\n.centr_block nav .active {\n  border-bottom: 3px solid #fff;\n  padding-bottom: 2px;\n}\n\n.centr_block #search {\n  position: absolute;\n  right: 15px;\n  top: 10px;\n  border: 1px solid #ccc;\n  outline: none;\n  width: 100%;\n  max-width: 230px;\n  height: 30px;\n  padding-left: 12px;\n}\n\n.centr_block #search ::-webkit-input-placeholder {\n  color: #fff;\n  text-transform: uppercase;\n  font-size: 12px;\n}\n\n.centr_block #search ::-moz-placeholder {\n  /* Firefox 19+ */\n  color: #fff;\n  text-transform: uppercase;\n  font-size: 12px;\n}\n\n.centr_block #search :-ms-input-placeholder {\n  color: #fff;\n  text-transform: uppercase;\n  font-size: 12px;\n}\n\n.centr_block #search :-moz-placeholder {\n  /* Firefox 18- */\n  color: #fff;\n  text-transform: uppercase;\n  font-size: 12px;\n}\n\n.centr_block #search input[type=\"text\"] {\n  padding: 5px 4px 4px 2px;\n  color: #fff;\n  background: none;\n  outline: none;\n  border: none;\n  background: none;\n}\n\n.centr_block #search input[type=\"submit\"] {\n  border: none;\n  background: url(../img/search.png) no-repeat center center;\n  display: block;\n  width: 19px;\n  height: 19px;\n  cursor: pointer;\n  text-indent: -9999px;\n  float: right;\n  margin: 5px 8px 0 0;\n}\n\n.logo_block {\n  max-width: 420px;\n  margin: 0 auto;\n}\n\n.logo {\n  position: absolute;\n  top: 215px;\n  text-align: center;\n}\n\n.logo a {\n  text-decoration: none;\n  color: #fff;\n}\n\n.logo img {\n  margin-right: 30px;\n}\n\n.logo #logo_txt {\n  float: right;\n}\n\n.logo #logo_txt h1 {\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: lighter;\n  font-size: 45px;\n}\n\n.logo #logo_txt p {\n  letter-spacing: 1px;\n  font-size: 22px;\n}\n\n.video_block {\n  width: 100%;\n  height: 554px;\n  position: relative;\n  overflow: hidden;\n  z-index: -1;\n}\n\n.video_block video {\n  width: 100%;\n  position: absolute;\n  margin: -15% 0;\n  background: url(../img/header-bg.png) no-repeat center center;\n}\n\n.video_block .h_light {\n  position: absolute;\n  background: rgba(0, 0, 0, 0.5);\n  width: 100%;\n  height: 100%;\n}\n\n@media (max-width: 1050px) {\n  .video_block video {\n    width: auto;\n  }\n}\n\n.h_phone {\n  text-align: center;\n  margin-top: 75px;\n  font-size: 25px;\n  padding-left: 40px;\n}\n\n.h_phone a {\n  display: block;\n  letter-spacing: 4px;\n}\n\n.m_menu {\n  box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);\n  -moz-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);\n  -webkit-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);\n  border-bottom: 1px solid #dfdfdf;\n  text-transform: uppercase;\n  font-size: 14px;\n  clear: both;\n}\n\n.m_menu ul {\n  max-width: 1080px;\n  margin: 0 auto;\n  height: 60px;\n  text-align: center;\n}\n\n.m_menu ul li {\n  list-style-type: none;\n  padding: 24px 25px;\n  cursor: pointer;\n  zoom: 1;\n  *display: inline !important;\n  display: inline-block;\n}\n\n.m_menu ul li:hover ul {\n  display: block;\n}\n\n.m_menu ul li a {\n  padding: 0 16px;\n  line-height: 40px;\n  color: #111e90;\n  display: block;\n}\n\n.m_menu ul li a:active {\n  color: #ff7100;\n}\n\n.m_menu ul li ul {\n  display: none;\n  background: #fff;\n  position: absolute;\n  border-top: 1px solid #dfdfdf;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);\n  z-index: 999;\n  height: auto;\n}\n\n.m_menu ul li ul li {\n  margin: 0;\n  display: block;\n  text-align: left;\n  padding: 0;\n  font-size: 13px;\n}\n\n.m_menu ul li ul li a {\n  padding: 0 40px 0 20px;\n  display: block;\n  line-height: 40px;\n  color: #333;\n  text-decoration: none;\n}\n\n.m_menu ul li ul li a:hover, .m_menu ul li ul li a:active {\n  background: #dfdfdf;\n}\n\n/*.m_menu>ul>li.active>a {\n\tcolor: #ff7100;\n}\n\n.m_menu>ul>li:hover>a {\n\tborder-top-left-radius: 10px;\n\t-moz-border-top-left-radius: 10px;\n\t-ms-border-top-left-radius: 10px;\n\t-o-border-top-left-radius: 10px;\n\t-webkit-border-top-left-radius: 10px;\n\tborder-top-right-radius: 10px;\n\t-moz-border-top-right-radius: 10px;\n\t-ms-border-top-right-radius: 10px;\n\t-o-border-top-right-radius: 10px;\n\t-webkit-border-top-right-radius: 10px;\n\tbackground: #006ac0;\n\tcolor: #fff;\n\t-moz-box-shadow: 2px 2px 10px rgba(0,0,0,0.2);\n\t-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,0.2);\n\tbox-shadow: 2px 2px 10px rgba(0,0,0,0.2);\n}\n.m_menu>ul>li.linker:hover>a {\n\tborder-bottom-left-radius: 10px;\n\t-moz-border-bottom-left-radius: 10px;\n\t-ms-border-bottom-left-radius: 10px;\n\t-o-border-bottom-left-radius: 10px;\n\t-webkit-border-bottom-left-radius: 10px;\n\tborder-bottom-right-radius: 10px;\n\t-moz-border-bottom-right-radius: 10px;\n\t-ms-border-bottom-right-radius: 10px;\n\t-o-border-bottom-right-radius: 10px;\n\t-webkit-border-bottom-right-radius: 10px;\n}\n\n.m_menu ul li ul li a {\n\tfont-family: Arial, Helvetica, sans-serif;\n\tpadding: 0 40px 0 20px;\n\tdisplay: block;\n\tfont-size: 16px;\n\tline-height: 40px;\n\tcolor: #333;\n}\n.m_menu ul li ul li a:hover,\n.m_menu ul li ul li.active a {\n\tbackground: #e5e5e5;\n}\n\n/*************** END HEADER********************/\n.content {\n  width: 100%;\n  max-width: 1060px;\n  margin: 0 auto;\n}\n\n.ordering {\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-flex-flow: row wrap;\n      -ms-flex-flow: row wrap;\n          flex-flow: row wrap;\n  -webkit-justify-content: space-around;\n      -ms-flex-pack: distribute;\n          justify-content: space-around;\n  margin: 70px 0;\n}\n\n.ordering a {\n  text-decoration: none;\n}\n\n.ordering a:active h2, .ordering a:hover h2 {\n  color: #ff820f;\n}\n\n.ordering article {\n  width: 100%;\n  max-width: 267px;\n  margin-bottom: 75px;\n  position: relative;\n  height: 255px;\n  font-size: 14px;\n}\n\n.ordering article h2 {\n  color: #004284;\n  font-weight: lighter;\n  text-transform: uppercase;\n  font-size: 14px;\n  margin-top: 25px;\n  height: 32px;\n}\n\n.ordering article p {\n  padding: 25px 0;\n  box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);\n  -moz-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);\n  -webkit-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);\n  border-bottom: 1px solid #dedede;\n  height: 37px;\n  margin-bottom: 15px;\n}\n\n.ordering article .buy {\n  position: absolute;\n  right: 10px;\n  text-transform: uppercase;\n  cursor: pointer;\n}\n\n.ordering article .buy:hover {\n  color: #dfdfdf;\n}\n\n#content_block {\n  padding: 0 30px;\n  letter-spacing: 1px;\n}\n\n#content_block h1 {\n  font-weight: lighter;\n}\n\n#content_block p {\n  margin-bottom: 25px;\n  font-size: 16px;\n  display: block;\n  font-size: 14px;\n  letter-spacing: 0;\n  text-align: justify;\n}\n\n#content_block li {\n  list-style-type: none;\n  font-size: 14px;\n  letter-spacing: 0;\n  text-align: justify;\n  margin-bottom: 25px;\n}\n\n.footer {\n  width: 100%;\n  margin: 0 auto;\n  height: 188px;\n}\n\n.footer-block {\n  margin: 0 auto;\n  padding: 50px 15px 0;\n  width: 100%;\n  max-width: 1060px;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-flex-flow: row wrap;\n      -ms-flex-flow: row wrap;\n          flex-flow: row wrap;\n  -webkit-justify-content: space-between;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  letter-spacing: 1px;\n}\n\n.f_contact {\n  font-size: 18px;\n  color: #000;\n}\n\n.f_contact p:first-child {\n  font-size: 15px;\n  margin-bottom: 10px;\n}\n\n.f_add {\n  font-size: 15px;\n  color: #000;\n}\n\n.f_add p:first-child {\n  margin-bottom: 5px;\n}\n\n.social {\n  position: relative;\n  margin-top: 20px;\n}\n\n.social .vk {\n  display: block;\n  background: url(../img/vk.png) no-repeat left top;\n  width: 109px;\n  height: 27px;\n  float: left;\n}\n\n.social .other-social {\n  display: block;\n  background: url(../img/social.png) no-repeat left top;\n  width: 114px;\n  height: 24px;\n  position: absolute;\n  right: 0;\n}\n\n.copyrait {\n  max-width: 1060px;\n  width: 100%;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-flex-flow: row wrap;\n      -ms-flex-flow: row wrap;\n          flex-flow: row wrap;\n  -webkit-justify-content: space-between;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  margin: 0 auto;\n  padding: 20px 15px 0;\n  color: #8f8f8f;\n  font-size: 12px;\n}\n\n.copyrait p {\n  display: block;\n  z-index: 9;\n}\n\n.copyrait a {\n  text-decoration: none;\n  color: #8f8f8f;\n}\n\n.copyrait a:hover, .copyrait a:focus {\n  color: #3d3d3d;\n}\n\n.footer-img {\n  position: absolute;\n  width: 100%;\n  height: 188px;\n  background: url(../img/city.png) repeat-x left top;\n  opacity: 0.1;\n}\n",
+			"file": "/home/vit/www/Бэкапы/build/css/main.css",
+			"file_size": 17291,
+			"file_write_time": 131232283062291110,
+			"settings":
+			{
+				"buffer_size": 17313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vit/www/Бэкапы/build/index.html",
+			"settings":
+			{
+				"buffer_size": 11927,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: SCSS",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"Package Control:scss",
+				"Package Control: Satisfy Dependencies"
+			]
+		],
+		"width": 348.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"start debuging",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/vit/www/carusel",
+		"/home/vit/www/carusel/css",
+		"/home/vit/www/carusel/images",
+		"/home/vit/www/carusel/js"
+	],
+	"file_history":
+	[
+		"/home/vit/www/Регистрал/src/js/partials/app.js",
+		"/home/vit/www/Регистрал/build/js/main.js",
+		"/home/vit/www/Регистрал/src/js/main.js",
+		"/home/vit/www/Регистрал/src/index.html",
+		"/home/vit/www/carusel/js/my.js",
+		"/home/vit/www/Регистрал/src/template/header.html",
+		"/home/vit/www/carusel/index.html",
+		"/home/vit/www/carusel/css/style.css",
+		"/home/vit/www/Бэкапы/build/js/main.js",
+		"/home/vit/www/julietelle.ru PUBLIC/Популярные_files/symix.js",
+		"/home/vit/www/Бэкапы/product.tpl",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/ProductView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/RasprodazhaView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/RegisterView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/UserView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/View.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/IndexView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/symix.js",
+		"/home/vit/www/Бэкапы/бэкап джуля/index.tpl",
+		"/home/vit/www/Бэкапы/бэкап джуля/novinki.tpl",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/NovinkiView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/ProductView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/BlogView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/CartView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/FeedbackView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/IndexView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/KontaktyView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/LoginView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/MainView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/MapView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/MyOrdersView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/ProductsView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/PageView.php",
+		"/home/vit/www/Бэкапы/бэкап джуля/view/OrderView.php",
+		"/home/vit/www/Бэкапы/style.css",
+		"/home/vit/www/Бэкапы/contacts.php",
+		"/home/vit/www/Регистрал/src/style/partials/_header.scss",
+		"/home/vit/.config/sublime-text-3/Packages/PyV8/linux64-p3/config.json",
+		"/home/vit/www/carusel/js/html5.js",
+		"/home/vit/www/carusel/js/untitled.html",
+		"/home/vit/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/vit/.config/sublime-text-3/Packages/Web Inspector/swi.sublime-settings",
+		"/home/vit/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/vit/www/Регистрал/src/template/content.html",
+		"/home/vit/www/Регистрал/src/style/partials/_content.scss",
+		"/home/vit/www/Регистрал/src/template/footer.html",
+		"/home/vit/www/Template/index.html",
+		"/home/vit/www/Template/css/style.css",
+		"/home/vit/www/Регистрал/build/css/main.css",
+		"/home/vit/www/Регистрал/src/style/main.scss",
+		"/home/vit/www/7ad.loc/wp-content/themes/7autoday/library/scss/style.scss",
+		"/home/vit/www/7ad.loc/wp-content/themes/7autoday/library/scss/partials/_variables.scss",
+		"/home/vit/www/Регистрал/src/style/partials/_variables.scss",
+		"/home/vit/www/Регистрал/gulpfile.js",
+		"/home/vit/www/Регистрал/src/style/partials/content.scss",
+		"/home/vit/www/Регистрал/src/style/partials/footer.scss",
+		"/home/vit/www/Регистрал/src/style/partials/header.scss",
+		"/home/vit/www/7ad.loc/wp-content/themes/7autoday/library/scss/partials/_typography.scss",
+		"/home/vit/www/7ad.loc/wp-content/themes/7autoday/library/scss/breakpoints/_base.scss",
+		"/home/vit/www/7ad.loc/wp-content/themes/7autoday/library/scss/breakpoints/_481up.scss",
+		"/home/vit/www/7ad.loc/wp-content/themes/7autoday/library/scss/breakpoints/_768up.scss",
+		"/home/vit/www/test.loc/carousel.js",
+		"/home/vit/www/test.loc/css/styles-carousel.css",
+		"/home/vit/www/Template/js/jquery.cookie.js",
+		"/home/vit/www/Template/js/html5.js",
+		"/home/vit/www/test.loc/index.html",
+		"/home/vit/www/Регистрал/node_modules/browser-sync/lib/tunnel.js",
+		"/home/vit/www/7ad.loc/wp-content/themes/7autoday/library/scss/breakpoints/_1030up.scss",
+		"/home/vit/www/julietelle.ru/index.html",
+		"/home/vit/www/Регистрал/package.json",
+		"/home/vit/www/Регистрал/bower.json",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/symix.js",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/style.css",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/product.tpl",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/map.tpl",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/index.tpl",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/ProductView.php",
+		"/home/vit/www/страница товара проверка скрипта/index.html",
+		"/home/vit/www/julietelle.ru PUBLIC/home.php",
+		"/home/vit/www/страница товара проверка скрипта/Бежевые валеночки_files/symix.js",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/IndexView.php",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/View.php",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/share42.js",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/MapView.php",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/.htaccess",
+		"/home/vit/www/julietelle.ru/Популярные_files/symix.js",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/products.tpl",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/novinki.tpl",
+		"/home/vit/www/julietelle.ru/Популярные_files/style.css",
+		"/home/vit/www/julietelle.ru PUBLIC/Популярные_files/style.css",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/1/index.php",
+		"/home/vit/www/julietelle.ru PUBLIC/Бэкап/IndexView.p",
+		"/home/vit/www/julietelle.ru OLD/О компании _ Сдам отчет_files/style.css",
+		"/home/vit/www/julietelle.ru/Популярные.html",
+		"/home/vit/www/julietelle.ru/О компании _ Сдам отчет_files/style.css",
+		"/home/vit/www/julietelle.ru/gulpfile.js",
+		"/home/vit/www/habr/gulpfile.js",
+		"/home/vit/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+		"/home/vit/www/julietelle.ru/JULIETELLE.RU/design/default/html/index.tpl",
+		"/home/vit/www/julietelle.ru/JULIETELLE.RU/design/default/css/style.css",
+		"/home/vit/www/julietelle.ru/julietelle.ru.sublime-project",
+		"/home/vit/www/julietelle.ru/Елки.html",
+		"/home/vit/www/julietelle.ru/О компании _ Сдам отчет_files/symix.eform.js",
+		"/home/vit/www/julietelle.ru/О компании _ Сдам отчет_files/style(1).css",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/contactus.html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/scripts/app.js",
+		"/home/vit/www/julietelle.ru/JULIETELLE.RU/view/View.php",
+		"/home/vit/www/julietelle.ru/JULIETELLE.RU/view/IndexView.php",
+		"/home/vit/www/julietelle.ru/JULIETELLE.RU/c62c7213621e.html",
+		"/home/vit/www/julietelle.ru/View.php",
+		"/home/vit/www/ukpwp.loc/wp-content/themes/sidebar.php",
+		"/home/vit/www/ukpwp.loc/wp-content/themes/sidebar-home.php",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/menu.html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/gulpfile.js",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/.jshintrc",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/dishdetail.html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/Gruntfile.js",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/package.json",
+		"/home/vit/www/contacts.php",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/dist/menu.html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/dishdetail (5).html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/dishdetail (4).html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/dishdetail (3).html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/dishdetail (2).html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/dishdetail(1).html",
+		"/home/vit/Документы/_49c417f481d797cf78b2985d8bded22f_dishdetail.html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/app/untitled.html",
+		"/home/vit/Документы/Coursera/web-frameworks/AngularJS/conFusion/dishdetail.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"active",
+			"$currency",
+			";\n",
+			"color",
+			"active",
+			"webkit-input-placeholder",
+			"content",
+			"body",
+			"price ",
+			"#contakts_page, #callback",
+			"clearfix",
+			"url",
+			"list.png",
+			"url",
+			"1060",
+			"1024",
+			"Меню",
+			"menu",
+			"product",
+			"line",
+			"im\n",
+			"product\n",
+			"products\n",
+			"product\n",
+			";\n",
+			"line",
+			"useminPrepare",
+			"login-btn",
+			"reserve-btn",
+			"close",
+			"modal-header",
+			"loginModal",
+			"count",
+			"thumb",
+			"videokontent",
+			"title"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/vit/www/Бэкапы/build/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										931,
+										932
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										41,
+										42
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/vit/www/Бэкапы/build/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17313,
+						"regions":
+						{
+							"gutter_color_10152":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										10152,
+										10166
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_10155":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										10155,
+										10169
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_10160":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										10160,
+										10181
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_10715":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.5).png",
+								"regions":
+								[
+									[
+										10715,
+										10748
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_10718":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.5).png",
+								"regions":
+								[
+									[
+										10718,
+										10751
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11001":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11001,
+										11116
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11023":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11023,
+										11138
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11026":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11026,
+										11141
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11117":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11117,
+										11237
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11139":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11139,
+										11259
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11142":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11142,
+										11262
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11238":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11238,
+										11361
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11260":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11260,
+										11383
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11263":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										11263,
+										11386
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11362":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.8).png",
+								"regions":
+								[
+									[
+										11362,
+										11397
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11384":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										11384,
+										11419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11387":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										11387,
+										11422
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11398":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										11398,
+										11426
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11672":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										11672,
+										11702
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11675":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										11675,
+										11705
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11681":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										11681,
+										11705
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11831":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111.png",
+								"regions":
+								[
+									[
+										11831,
+										11848
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11835":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111e90.png",
+								"regions":
+								[
+									[
+										11835,
+										11852
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11838":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#111e90.png",
+								"regions":
+								[
+									[
+										11838,
+										11855
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11898":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff7100.png",
+								"regions":
+								[
+									[
+										11898,
+										11916
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11899":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff7100.png",
+								"regions":
+								[
+									[
+										11899,
+										11916
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11902":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff7100.png",
+								"regions":
+								[
+									[
+										11902,
+										11919
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11954":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										11954,
+										11975
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11956":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										11956,
+										11975
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11959":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										11959,
+										11978
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_11998":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										11998,
+										12030
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12001":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										12001,
+										12033
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12009":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										12009,
+										12055
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12031":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.2).png",
+								"regions":
+								[
+									[
+										12031,
+										12077
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12034":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.2).png",
+								"regions":
+								[
+									[
+										12034,
+										12080
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12304":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										12304,
+										12328
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12311":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										12311,
+										12325
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12314":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										12314,
+										12328
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12414":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										12414,
+										12436
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12417":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										12417,
+										12439
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12418":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										12418,
+										12444
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12465":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff7100.png",
+								"regions":
+								[
+									[
+										12465,
+										12488
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12467":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff7100.png",
+								"regions":
+								[
+									[
+										12467,
+										12483
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12470":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff7100.png",
+								"regions":
+								[
+									[
+										12470,
+										12486
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12866":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#006ac0.png",
+								"regions":
+								[
+									[
+										12866,
+										12887
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12880":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										12880,
+										12927
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12888":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										12888,
+										12901
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12902":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.2).png",
+								"regions":
+								[
+									[
+										12902,
+										12949
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12928":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.2).png",
+								"regions":
+								[
+									[
+										12928,
+										12978
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12950":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.2).png",
+								"regions":
+								[
+									[
+										12950,
+										13000
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_12979":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.2).png",
+								"regions":
+								[
+									[
+										12979,
+										13021
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13001":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.2).png",
+								"regions":
+								[
+									[
+										13001,
+										13043
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13024":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.2).png",
+								"regions":
+								[
+									[
+										13024,
+										13054
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13607":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										13607,
+										13635
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13613":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										13613,
+										13626
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13689":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#e5e5e5.png",
+								"regions":
+								[
+									[
+										13689,
+										13710
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_13692":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#e5e5e5.png",
+								"regions":
+								[
+									[
+										13692,
+										13740
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14225":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff820f.png",
+								"regions":
+								[
+									[
+										14225,
+										14244
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14226":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff820f.png",
+								"regions":
+								[
+									[
+										14226,
+										14243
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14405":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#004284.png",
+								"regions":
+								[
+									[
+										14405,
+										14428
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14409":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#004284.png",
+								"regions":
+								[
+									[
+										14409,
+										14426
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14557":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										14557,
+										14672
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14579":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										14579,
+										14694
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14673":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										14673,
+										14793
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14695":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										14695,
+										14815
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14794":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										14794,
+										14917
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14816":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										14816,
+										14939
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14918":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0, 0, 0, 0.8).png",
+								"regions":
+								[
+									[
+										14918,
+										14953
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_14940":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dedede.png",
+								"regions":
+								[
+									[
+										14940,
+										14975
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_15162":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#dfdfdf.png",
+								"regions":
+								[
+									[
+										15162,
+										15179
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_16055":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										16055,
+										16081
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_16059":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										16059,
+										16073
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_16173":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										16173,
+										16195
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_16177":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										16177,
+										16191
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1643":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										1643,
+										1714
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17091":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#8f8f8f.png",
+								"regions":
+								[
+									[
+										17091,
+										17129
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1968":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/gray.png",
+								"regions":
+								[
+									[
+										1968,
+										2026
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2198":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										2198,
+										2273
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2861":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										2861,
+										2932
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3240":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff0.png",
+								"regions":
+								[
+									[
+										3240,
+										3265
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3266":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										3266,
+										3280
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4572":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										4572,
+										4641
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4642":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										4642,
+										4700
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5589":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#c0c0c0.png",
+								"regions":
+								[
+									[
+										5589,
+										5617
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5724":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										5724,
+										5791
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_6070":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										6070,
+										6092
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8202":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										8202,
+										8216
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8217":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f2f2f2.png",
+								"regions":
+								[
+									[
+										8217,
+										8245
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8403":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										8403,
+										8417
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8841":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										8841,
+										8873
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8844":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										8844,
+										8876
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8973":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										8973,
+										8998
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_8976":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										8976,
+										9001
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9143":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9143,
+										9157
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9146":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9146,
+										9160
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9271":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9271,
+										9285
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9274":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9274,
+										9288
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9383":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9383,
+										9397
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9386":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9386,
+										9400
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9510":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9510,
+										9524
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9513":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9513,
+										9527
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9646":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9646,
+										9660
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_9649":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										9649,
+										9663
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								8736,
+								8736
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										8759,
+										8760
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										8663,
+										8664
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8038.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/vit/www/Бэкапы/build/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										541,
+										542
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										529,
+										530
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "carusel.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/www/julietelle.ru PUBLIC/Бэкап/registral.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

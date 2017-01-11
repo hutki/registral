@@ -1,0 +1,44 @@
+@media (max-width: 410px){
+	.footer-block{
+	padding: 10px 10px 0;
+}
+#top_panel{
+		.centr_block{
+			#menu{
+				width:70%;
+			}
+		}
+	}
+#pull:after{	
+				display: none;
+			}
+
+#content_block{
+	h1{
+		font-size: 20px;
+	}
+	.img_left{
+		float: none;
+		margin:0 auto 25px;
+		display: block;
+	}
+} 
+.footer-block {
+	.f_contact {
+		margin-bottom: 0;
+		.f_tel{
+			margin-bottom: 5px;
+		}
+	}
+}
+.copyrait {
+	.perm{
+		width: 100%;
+		text-align: center;
+	}
+	.dev{
+		text-align: center;
+		}
+}
+}
+
