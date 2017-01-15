@@ -5,7 +5,6 @@ $.fn.menu = function () {
 	var ww = $(window).width();
 
 if (ww >= 981&& obj.find('li').hasClass("active")) {
-	
 
 	$(window).load(function() {
 var posact = $('.active').position().left;
