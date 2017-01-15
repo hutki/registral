@@ -5,23 +5,21 @@ $.fn.menu = function () {
 	var ww = $(window).width();
 
 if (ww >= 981&& obj.find('li').hasClass("active")) {
-	
-
 	$(window).load(function() {
-var posact = $('.active').position().left;
-	var wact = $('.active').width();
-$('#line').css({'left': posact, 'width': wact});
+		var posact = $('.active').position().left;
+		var wact = $('.active').width();
+		$('#line').css({'left': posact, 'width': wact});
 	
-	$('#menu ul li').mouseenter(function(){
-		var pos = $(this).position().left;
-		var w = $(this).width();
-		$('#line').stop().animate({'left': pos, 'width': w},400);
-	});
-	$('#menu ul li').mouseleave(function(){
-		var pos = $('.active').position().left;
-		var w = $('.active').width();
-		$('#line').stop().animate({'left': pos, 'width': w + 'px'},400);
-	});
+		$('#menu ul li').mouseenter(function(){
+			var pos = $(this).position().left;
+			var w = $(this).width();
+			$('#line').stop().animate({'left': pos, 'width': w},400);
+		});
+		$('#menu ul li').mouseleave(function(){
+			var pos = $('.active').position().left;
+			var w = $('.active').width();
+			$('#line').stop().animate({'left': pos, 'width': w + 'px'},400);
+		});
 	});
 		}
 }
