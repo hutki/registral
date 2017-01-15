@@ -1,0 +1,135 @@
+@media (max-width: 981px)
+{
+	#top_panel{
+		position: relative;
+		box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+ 	-moz-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+ 	-webkit-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+	border-bottom: 1px solid #dfdfdf;
+	text-transform: uppercase;
+	font-size: 14px;
+	clear: both;
+		.centr_block{
+			top:0;
+			a{
+				text-decoration: none;
+				img{
+					margin-right: 10px;
+				}
+				span{
+					vertical-align: 11px;
+				}
+			}
+			.logo_block_m{
+				top: 8px;
+				left: 20px;
+				display: block;	
+				position: absolute;
+			   	a{
+			   		text-decoration: none;
+			   		color: #333;
+			   	}
+			   	img{
+					margin-right: 10px;
+			   	}
+			   	#logo_txt{
+			   		float: right;
+			   		h1{
+			   			margin: 0;
+			    		text-transform: uppercase;
+			    		font-weight: lighter;
+			    		font-size: 27px;
+			    	}
+			   		p{
+			   			letter-spacing: 1px;
+			   			font-size: 10px;
+			    	}
+			    }
+			}
+			#menu{
+				top:63px;
+				right:0;
+				margin:0;
+				width:40%;
+				padding-left: 15px;
+				ul{
+					#line{
+							display: none;
+						}
+					li{
+						float: none;
+						padding:10px 0;
+						color:#333;	
+						a {
+						color:#333;	
+						}
+					}
+				}
+			}
+			#m_menu_mob{
+				display: block;
+					li{
+						ul{
+							li{
+								padding-left: 10px;
+								a{
+									color:#333;
+									font-size:13px;
+								}
+							}
+						}
+					}
+				}
+			}
+			#search{
+				display: none;
+			}
+			#pull:after{	
+				content: 'меню';
+				font-size: 18px;
+		    	margin-left: 7px;
+		    	vertical-align: 6px;
+			}
+	.bug
+	{
+		display: block;
+		position: absolute;
+		right:15px;
+		top:8px;
+		font-size:17px;
+		z-index: 1;
+		text-transform: uppercase;
+		a{
+			color:#333;
+		}
+			
+		img{
+			margin-top: 10px;
+		}
+	}
+	.bug a:hover{
+		color: #555;
+	}
+	.bug a:visited{
+		color: #555;
+	}
+/*END .centr_block*/
+		}
+	#menu, .m_menu{
+			display: none;
+			background: #fff;
+			position: absolute;
+			border-top: 1px solid #dfdfdf;
+			-moz-box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+			-webkit-box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+			box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+			z-index: 999;
+			height: auto;
+	}
+		.video_block {
+		display:none;
+	}
+	.logo_block{
+		display: none;
+	}
+}

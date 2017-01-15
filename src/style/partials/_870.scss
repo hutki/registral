@@ -1,0 +1,12 @@
+@media (max-width: 870px)
+{
+.ordering{
+	article{
+		width:50%;
+		text-align: center;
+	}
+	article:nth-child(3n+3){
+			text-align: center;
+	}
+}
+}

@@ -1,0 +1,229 @@
+
+/*************************************
+Content
+**************************************/
+.content{
+	max-width:1100px;
+	margin:0 auto;
+	}
+.ordering{
+	max-width:100%;
+	text-align: center;
+	padding: 0 14px;
+	article{
+		width:33.3333333%;
+		margin-bottom:60px;
+		font-size: 14px;
+		float:left;
+		text-align: left;
+		.detail_block{
+				max-width: 267px;
+				display: inline-block;
+				position: relative;
+				text-align: left;
+			h2{
+				color: #004284;
+				font-weight: lighter;
+				text-transform: uppercase;
+				font-size: 14px;
+				margin-top: 20px;
+				height: 32px;
+			}
+			p{
+			padding: 20px 0;
+			box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+  			-moz-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+  			-webkit-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+			border-bottom: 1px solid #dedede;
+			height: 37px;
+			}
+			.price_block{
+				margin-top: 10px;
+				.price{
+					padding-top: 4px;
+					display: inline-block;
+				}
+				a{
+					color: #333;
+					position: absolute;
+					right: 0;
+					text-decoration: none;
+					text-transform: uppercase;
+					cursor: pointer;
+					padding: 4px 10px;
+					&:hover{
+							outline: 1px solid #dfdfdf;
+					}
+				}
+			}
+		}
+	}
+	article:nth-child(3n+2){
+		text-align: center;
+	}
+	article:nth-child(3n+3){
+			text-align: right;
+		}
+}
+#content_block{
+	letter-spacing: 1px;
+	padding: 0 10px;
+	h1{
+		font-weight: lighter;
+		padding: 0 30px;
+	}
+	p{
+		margin-bottom: 25px;
+		font-size: 16px;
+		display: block;
+		font-size: 14px;
+		letter-spacing: 0;
+		text-align: justify;
+	}
+	.img_left{
+		float: left;
+		 margin: 0 45px 45px 0;
+	}
+	.img_right{
+		float: right;
+		 margin:45px 0 45px 45px;
+	}
+	li{
+		list-style-type: none;
+		font-size: 14px;
+		letter-spacing: 0;
+		text-align: justify;
+		margin-bottom: 25px;
+	}
+	.wrap_table {
+  		overflow-x: auto;
+	}
+	table {
+		margin-bottom:40px;
+		border-collapse: collapse;
+		font-size: 14px;
+		border: 1px solid #dfdfdf;
+		.title{
+			font-weight: bold;
+			color:#333;
+			background:#eaeaea;
+			padding:10px;
+			text-align: center;
+			border: 1px solid #7b7270;
+		}
+		tr{
+			border-bottom:solid 1px #dfdfdf;
+		}
+		td{
+			padding:10px;
+			border-right: solid 1px #dfdfdf;
+			a{
+					color: #0e558a;
+					text-decoration: none;
+					&:active,
+					&:hover{
+						color:#0077E7;
+					}
+				}
+		}
+	}
+}
+.news{
+	article {
+		border-bottom: 1px solid #dedede;
+		margin-bottom: 20px;
+		.date {
+			width: 5%;
+			min-width: 47px;
+			float: left;
+			margin-right: 15px;
+			font-size: 13px;
+			padding-top:2px;
+		}
+	.summary{
+		width:93%;
+		float: left;
+		h3{
+			margin-bottom: 15px;
+			font-size: 15px;
+			a{
+			color: #004284;
+				&:hover{
+					color:#0077E7;
+					text-decoration: none;
+				}
+		}
+		}
+		p{
+			margin-bottom: 10px;
+		}
+		
+	}
+	}
+	.paginate {
+		text-align: center;
+		margin: 60px 0;
+		.ditto_currentpage {
+			padding: 3px 10px;
+			background: #dfdfdf;
+			margin: 0 3px;
+			outline: solid 1px #969696;
+		}
+		a {
+			padding: 3px 10px;
+			background: #dfdfdf;
+			text-decoration: none;
+			color:#333;
+			margin: 0 3px;
+			&:hover{
+					outline: solid 1px #969696;
+				}
+		}
+	}
+	
+}
+/*************************************
+Слайдер
+**************************************/
+#carusel{
+	max-width:1000px;
+	height:120px;
+	margin: 40px auto;
+	overflow: hidden;
+	position: relative;
+	ul{
+		display: block;
+		height: inherit;
+		position: absolute;
+		left: 50px;
+		li{
+			float: left;
+			width: 150px;
+			display: block;
+		}
+	}
+	.prev, .next{
+				display: block;
+				position: absolute;
+				width: 50px;
+				height: 120px;
+				z-index: 99;
+				cursor: pointer;
+	}
+	.prev{
+		background: url(../img/logos_prev.png) no-repeat center center;
+	}
+	.next{
+		background: url(../img/logos_next.png) no-repeat center center;
+		right:0;
+	}
+}
+/*************************************
+End content
+**************************************/
+
+
+
+
+
+
