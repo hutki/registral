@@ -5,17 +5,11 @@ $.fn.menu = function () {
 	var ww = $(window).width();
 
 if (ww >= 981&& obj.find('li').hasClass("active")) {
-<<<<<<< HEAD
-	var posact = $('.active').position().left;
-	var wact = $('.active').width();
-	$('#line').css({'left': posact, 'width': wact});
-=======
 
 	$(window).load(function() {
 var posact = $('.active').position().left;
 	var wact = $('.active').width();
 $('#line').css({'left': posact, 'width': wact});
->>>>>>> d9892d914b54f5eb35b43f2101fd284685a90770
 	
 	$('#menu ul li').mouseenter(function(){
 		var pos = $(this).position().left;
@@ -27,13 +21,9 @@ $('#line').css({'left': posact, 'width': wact});
 		var w = $('.active').width();
 		$('#line').stop().animate({'left': pos, 'width': w + 'px'},400);
 	});
-<<<<<<< HEAD
-		}
-	
-=======
+
 	});
 		}
->>>>>>> d9892d914b54f5eb35b43f2101fd284685a90770
 }
 
 $.fn.mMenu = function(speed) {
@@ -51,8 +41,7 @@ $.fn.mMenu = function(speed) {
 			});
 		}
 
-<<<<<<< HEAD
-=======
+
 $.fn.wrapTable = function () {
 	var ww = $(window).width();
 if (ww <= 981) {
@@ -60,7 +49,7 @@ if (ww <= 981) {
 		}
 }
 
->>>>>>> d9892d914b54f5eb35b43f2101fd284685a90770
+
 $.fn.carusel = function() {
 var obj = $(this);
 var w_img = obj.find('li').width();
@@ -96,18 +85,10 @@ obj.find('.prev').click(function(){
 
 $(document).ready(function(e){
 	$('#menu').menu();
-<<<<<<< HEAD
-	$('.m_menu').mMenu(400);
-	$('#carusel').carusel();
-
-
-
-=======
 	$('table').wrapTable(400);
 	$('.m_menu').mMenu(400);
 	$('#carusel').carusel();
 
->>>>>>> d9892d914b54f5eb35b43f2101fd284685a90770
 	$(window).load(function() {
 		var i = 1;
 		var playing = setInterval(function() {
