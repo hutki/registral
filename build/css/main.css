@@ -520,7 +520,7 @@ header {
   height: 62px;
   position: relative;
   top: 15px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .centr_block .logo_block_m, .centr_block #m_menu_mob, .centr_block .bug {
@@ -540,7 +540,7 @@ header {
   list-style-type: none;
   float: left;
   text-transform: uppercase;
-  padding: 22px 94px 0 0;
+  padding: 22px 45px 0 0;
   cursor: pointer;
 }
 
@@ -553,7 +553,7 @@ header {
   background: #fff;
   display: block;
   height: 2px;
-  margin-top: 3px;
+  margin-top: 2px;
   position: absolute;
   top: 36px;
   left: 0;
@@ -565,9 +565,8 @@ header {
   top: 10px;
   border: 1px solid #ccc;
   outline: none;
-  max-width: 230px;
-  height: 30px;
-  padding-left: 12px;
+  width: 227px;
+  height: 27px;
 }
 
 .centr_block #search ::-webkit-input-placeholder {
@@ -598,11 +597,10 @@ header {
 
 .centr_block #search input[type="text"] {
   font-family: GothamProLight;
-  font-size: 14px;
-  width: 195px;
-  padding: 6px 4px;
+  font-size: 13px;
+  width: 170px;
+  padding: 7px 12px;
   color: #fff;
-  background: none;
   outline: none;
   border: none;
   background: none;
@@ -617,7 +615,7 @@ header {
   cursor: pointer;
   text-indent: -9999px;
   float: right;
-  margin: 5px 8px 0 0;
+  margin: 4px 7px;
 }
 
 .logo_block {
@@ -642,25 +640,26 @@ header {
 
 .logo_block .logo #logo_txt {
   float: right;
+  margin-top: 5px;
 }
 
 .logo_block .logo #logo_txt h1 {
   margin: 0;
   text-transform: uppercase;
   font-weight: lighter;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .logo_block .logo #logo_txt p {
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .logo_block .logo .h_phone {
   text-align: center;
-  margin-top: 75px;
-  font-size: 25px;
-  padding-left: 40px;
+  margin-top: 70px;
+  font-size: 20px;
+  padding-left: 45px;
 }
 
 .logo_block .logo .h_phone a {
@@ -670,7 +669,7 @@ header {
 
 .logo_block .logo #order_e_form {
   width: 70%;
-  margin-top: 35px;
+  margin-top: 50px;
   border: 1px solid #ccc;
   position: absolute;
   left: 80px;
@@ -686,6 +685,7 @@ header {
 }
 
 .logo_block .logo #order_e_form a p {
+  font-size: 14px;
   padding: 11px 0;
 }
 
