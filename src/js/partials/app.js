@@ -6,6 +6,8 @@ $.fn.menu = function () {
 
 if (ww >= 981&& obj.find('li').hasClass("active")) {
 
+
+
 	$(window).load(function() {
 var posact = $('.active').position().left;
 	var wact = $('.active').width();
