@@ -23,6 +23,7 @@ $('#line').css({'left': posact, 'width': wact});
 		var w = $('.active').width();
 		$('#line').stop().animate({'left': pos, 'width': w + 'px'},400);
 	});
+
 	});
 		}
 }
@@ -42,12 +43,14 @@ $.fn.mMenu = function(speed) {
 			});
 		}
 
+
 $.fn.wrapTable = function () {
 	var ww = $(window).width();
 if (ww <= 981) {
 	$('table').wrap( "<div class='wrap_table'></div>" );
 		}
 }
+
 
 $.fn.carusel = function() {
 var obj = $(this);
