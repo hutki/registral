@@ -43,6 +43,22 @@ $.fn.mMenu = function(speed) {
 			});
 		}
 
+//раскрытие списка в мобилке
+$.fn.m2Menu = function(speed) {
+		var obj = $(this);
+			obj.children('ul').children('li').mouseenter(function() {
+				if ($(this).children('ul').length)
+				{
+					$(this).children('ul').stop().slideDown(speed);
+				}
+			}).mouseleave(function() {
+				if ($(this).children('ul').length)
+				{
+					$(this).children('ul').stop().slideUp(speed);
+				}
+			});
+		}
+//end раскрытие списка в мобилке		
 
 $.fn.wrapTable = function () {
 	var ww = $(window).width();
@@ -89,6 +105,7 @@ $(document).ready(function(e){
 	$('#menu').menu();
 	$('table').wrapTable(400);
 	$('.m_menu').mMenu(400);
+	$('#mob_menu').m2Menu(400);
 	$('#carusel').carusel();
 
 	$(window).load(function() {
