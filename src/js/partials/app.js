@@ -44,18 +44,12 @@ $.fn.mMenu = function(speed) {
 		}
 
 //раскрытие списка в мобилке
-$.fn.m2Menu = function(speed) {
+$.fn.m2Menu = function() {
 		var obj = $(this);
-			obj.children('ul').children('li').mouseenter(function() {
-				if ($(this).children('ul').length)
-				{
-					$(this).children('ul').stop().slideDown(speed);
-				}
-			}).mouseleave(function() {
-				if ($(this).children('ul').length)
-				{
-					$(this).children('ul').stop().slideUp(speed);
-				}
+			obj.children('ul').children('li').click(function() {
+				$(this).children('ul').slideToggle(800,function(){
+        
+     });
 			});
 		}
 //end раскрытие списка в мобилке		
@@ -66,7 +60,6 @@ if (ww <= 981) {
 	$('table').wrap( "<div class='wrap_table'></div>" );
 		}
 }
-
 
 $.fn.carusel = function() {
 var obj = $(this);
@@ -105,7 +98,7 @@ $(document).ready(function(e){
 	$('#menu').menu();
 	$('table').wrapTable(400);
 	$('.m_menu').mMenu(400);
-	$('#mob_menu').m2Menu(400);
+	$('#mob_menu').m2Menu();
 	$('#carusel').carusel();
 
 	$(window).load(function() {
@@ -123,10 +116,11 @@ $(document).ready(function(e){
 		var pull = $('#pull');
 		menu = $('#menu');
 		menuHeight = menu.height();
-
+		le = '+=320';
 		$(pull).on('click', function(e) {
 		e.preventDefault();
-		menu.slideToggle();
+		menu.animate({width:'toggle'}, 300);
+		$('.centr_block').stop().animate({right: le},300);
 		});
 
 		$(window).resize(function(){
