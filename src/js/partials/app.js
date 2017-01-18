@@ -120,7 +120,7 @@ $(document).ready(function(e){
 		$(pull).on('click', function(e) {
 		e.preventDefault();
 		menu.animate({width:'toggle'}, 300);
-		$('.centr_block').stop().animate({right: le},300);
+		$('.bug').toggleClass( "highlight" );
 		});
 
 		$(window).resize(function(){
