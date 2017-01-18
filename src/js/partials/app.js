@@ -111,8 +111,18 @@ $(document).ready(function(e){
 			}
 		}, 500);
 	});
+	$(document).ready(function(){
+		var pull = $('#pull');
+		menu = $('#menu');
+		pull.click(function() {
+			$('body').toggleClass('switch');
+		})
 
-	$(document).ready(function() {
+	});
+
+
+
+	/*$(document).ready(function() {
 		var pull = $('#pull');
 		menu = $('#menu');
 		menuHeight = menu.height();
@@ -130,5 +140,5 @@ $(document).ready(function(e){
 			menu.removeAttr('style');
 			}
 		});
-	});
+	});*/
 });
