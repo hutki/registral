@@ -8,10 +8,15 @@
 				width:70%;
 			}
 		}
-	}
-#pull:after{	
+		.bug{
+		width: 50px;
+		#pull:after{	
 				display: none;
 			}
+	}
+	}
+
+
 
 #content_block{
 	h1{
@@ -22,7 +27,7 @@
 		margin:0 auto 25px;
 		display: block;
 	}
-} 
+}
 .footer-block {
 	.f_contact {
 		margin-bottom: 0;

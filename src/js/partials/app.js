@@ -112,16 +112,17 @@ $(document).ready(function(e){
 		}, 500);
 	});
 	$(document).ready(function(){
+		var body = $('body');
 		var pull = $('#pull');
-		menu = $('#menu');
+		var bug = $('.bug');
+
 		pull.click(function() {
-			$('body').toggleClass('switch');
+			body.toggleClass('switch');
+			bug.toggleClass('bug bug_close');
+
 		})
 
 	});
-
-
-
 	/*$(document).ready(function() {
 		var pull = $('#pull');
 		menu = $('#menu');
