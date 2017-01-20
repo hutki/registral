@@ -47,9 +47,8 @@ $.fn.mMenu = function(speed) {
 $.fn.m2Menu = function() {
 		var obj = $(this);
 			obj.children('ul').children('li').click(function() {
-				$(this).children('ul').slideToggle(800,function(){
-        
-     });
+				$(this).children('ul').slideToggle(400);
+				$(this).children('ul>li>span').toggleClass('item_oppened');
 			});
 		}
 //end раскрытие списка в мобилке		
@@ -115,10 +114,12 @@ $(document).ready(function(e){
 		var body = $('body');
 		var pull = $('#pull');
 		var bug = $('.bug');
+		var search = $('#search')
 
 		pull.click(function() {
 			body.toggleClass('switch');
 			bug.toggleClass('bug bug_close');
+			search.toggleClass('search_menu');
 
 		})
 

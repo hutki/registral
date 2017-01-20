@@ -5,7 +5,10 @@
 #top_panel{
 		.centr_block{
 			#menu{
-				width:70%;
+				width:263px;
+			}
+			.search_menu{
+				right: 10px;
 			}
 		}
 		.bug{
@@ -15,9 +18,6 @@
 			}
 	}
 	}
-
-
-
 #content_block{
 	h1{
 		font-size: 20px;
