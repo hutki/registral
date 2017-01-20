@@ -8,7 +8,10 @@
 		transform: translateX(0);
 	}
 	#top_panel{
-		position: relative;
+		position: fixed;
+		top: 0;
+	    z-index: 10;
+	    background: #f2f2f2;
 		box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
  		-moz-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
  		-webkit-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
