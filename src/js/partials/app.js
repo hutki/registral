@@ -110,37 +110,18 @@ $(document).ready(function(e){
 			}
 		}, 500);
 	});
-	$(document).ready(function(){
+	
+	$(document).ready(function() {
 		var body = $('body');
 		var pull = $('#pull');
 		var bug = $('.bug');
 		var search = $('#search')
-
-		pull.click(function() {
-			body.toggleClass('switch');
-			bug.toggleClass('bug bug_close');
-			search.toggleClass('search_menu');
-
-		})
-
-	});
-	/*$(document).ready(function() {
-		var pull = $('#pull');
-		menu = $('#menu');
-		menuHeight = menu.height();
-		le = '+=320';
 		$(pull).on('click', function(e) {
 		e.preventDefault();
-		menu.animate({width:'toggle'}, 300);
-		$('.bug').toggleClass( "highlight" );
+		body.toggleClass('switch');
+			bug.toggleClass('bug bug_close');
+			search.toggleClass('search_menu');
 		});
 
-		$(window).resize(function(){
-			var w = $(window).width();
-
-			if(w > 981&& menu.is(':hidden')) {
-			menu.removeAttr('style');
-			}
-		});
-	});*/
+	});
 });
