@@ -131,7 +131,7 @@ Content
 	}
 }
 .news{
-	article {
+	article, .ajaxSearch_result {
 		border-bottom: 1px solid #dedede;
 		margin-bottom: 20px;
 		.date {
@@ -141,6 +141,18 @@ Content
 			margin-right: 15px;
 			font-size: 13px;
 			padding-top:2px;
+		}
+		a {
+			display: block;
+			color: #004284;
+			margin-bottom: 15px;
+    		font-size: 15px;
+    		font-weight: bold;
+    		margin-bottom: 15px;
+				&:hover{
+					color:#0077E7;
+					text-decoration: none;
+				}
 		}
 	.summary{
 		width:93%;
@@ -161,11 +173,17 @@ Content
 		}
 		
 	}
+	.ajaxSearch_resultExtract{
+		.ajaxSearch_highlight{
+			background-color: #ffe44b;
+		}
 	}
-	.paginate {
+	}
+	.paginate, .ajaxSearch_paging {
 		text-align: center;
 		margin: 60px 0;
-		.ditto_currentpage {
+		display: block;
+		.ditto_currentpage, .ajaxSearch_currentPage {
 			padding: 3px 10px;
 			background: #dfdfdf;
 			margin: 0 3px;
