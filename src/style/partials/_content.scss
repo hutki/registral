@@ -122,11 +122,10 @@ Content
 				line-height: 20px;
 			}
 			a{
-					color: #0e558a;
-					text-decoration: none;
+					color: #004284;
 					&:active,
 					&:hover{
-						color:#0077E7;
+						text-decoration: none;
 					}
 				}
 		}
@@ -155,7 +154,6 @@ Content
     		font-weight: bold;
     		margin-bottom: 15px;
 				&:hover{
-					color:#0077E7;
 					text-decoration: none;
 				}
 		}
@@ -168,7 +166,6 @@ Content
 			a{
 			color: #004284;
 				&:hover{
-					color:#0077E7;
 					text-decoration: none;
 				}
 		}
