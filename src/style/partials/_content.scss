@@ -81,6 +81,12 @@ Content
 		letter-spacing: 0;
 		text-align: justify;
 	}
+	a {
+		color: #034ddc;
+		&:hover{
+			text-decoration: none;
+		}
+	}
 	.img_left{
 		float: left;
 		 margin: 0 45px 45px 0;
@@ -119,12 +125,14 @@ Content
 		td{
 			padding:10px;
 			border-right: solid 1px #dfdfdf;
+			p{
+				text-align: inherit;
+			}
 			a{
 					color: #0e558a;
-					text-decoration: none;
 					&:active,
 					&:hover{
-						color:#0077E7;
+						text-decoration: none;
 					}
 				}
 		}
