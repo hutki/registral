@@ -71,22 +71,22 @@ Content
 	padding: 0 10px;
 	h1{
 		font-weight: lighter;
-		padding: 0 30px;
 	}
 	p{
 		margin-bottom: 25px;
-		font-size: 16px;
 		display: block;
 		font-size: 14px;
 		letter-spacing: 0;
 		text-align: justify;
 	}
-	a {
-		color: #034ddc;
+	a{
+		color: #004284;
+		&:active,
 		&:hover{
-			text-decoration: none;
+				text-decoration: none;
 		}
 	}
+	
 	.img_left{
 		float: left;
 		 margin: 0 45px 45px 0;
@@ -126,14 +126,7 @@ Content
 			p{
 				text-align: inherit;
 			}
-			
-			a{
-					color: #004284;
-					&:active,
-					&:hover{
-						text-decoration: none;
-					}
-				}
+						
 		}
 		}
 	}
@@ -183,7 +176,8 @@ Content
 	}
 	.ajaxSearch_resultExtract{
 		.ajaxSearch_highlight{
-			background-color: #ffe44b;
+			background-color: #fcf8a5;
+			padding: 1px 3px 3px 4px;
 		}
 	}
 	}
@@ -201,7 +195,7 @@ Content
 			padding: 3px 10px;
 			background: #dfdfdf;
 			text-decoration: none;
-			color:#333;
+			color:#333 !important;
 			margin: 0 3px;
 			&:hover{
 					outline: solid 1px #969696;
