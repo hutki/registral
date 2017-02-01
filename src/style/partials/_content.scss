@@ -118,26 +118,28 @@ Content
 			text-align: center;
 			border: 1px solid #7b7270;
 		}
-
 		tr{
 			border-bottom:solid 1px #dfdfdf;
-		}
-		td{
+			td{
 			padding:10px;
 			border-right: solid 1px #dfdfdf;
 			p{
 				text-align: inherit;
 			}
+			
 			a{
-					color: #0e558a;
+					color: #004284;
 					&:active,
 					&:hover{
 						text-decoration: none;
 					}
 				}
 		}
+		}
 	}
+
 }
+
 .news{
 	article, .ajaxSearch_result {
 		border-bottom: 1px solid #dedede;
@@ -158,7 +160,6 @@ Content
     		font-weight: bold;
     		margin-bottom: 15px;
 				&:hover{
-					color:#0077E7;
 					text-decoration: none;
 				}
 		}
@@ -171,7 +172,6 @@ Content
 			a{
 			color: #004284;
 				&:hover{
-					color:#0077E7;
 					text-decoration: none;
 				}
 		}
