@@ -102,6 +102,44 @@ Content
 		text-align: justify;
 		margin-bottom: 25px;
 	}
+	.tab-content{
+			display: none;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+	.tab_usl{
+		position:relative;
+		overflow: hidden;
+	    margin-bottom: 25px;
+	    border-bottom: 1px solid #dfdfdf;
+	    padding: 5px 5px 0 0;
+	    font-size: 13px;
+
+		a {
+			display: block;
+			text-decoration: none;
+			float:left;
+			color:#333;
+			text-transform:uppercase;
+			padding: 10px 12px;
+			&:hover{
+				background: #dfdfdf;
+			}
+		}
+		.active{
+				background: #dfdfdf;
+				padding: 10px 12px;
+			}
+		span{
+			margin-bottom: 5px;
+			position:absolute;
+			right:0;
+			padding:10px 0;
+		}
+	}
 	.wrap_table {
   		overflow-x: auto;
 	}

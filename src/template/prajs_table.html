@@ -1,12 +1,17 @@
 <main class="content">
   <section id="content_block" class="index_text">
-    <p style="text-align: right;">* цены указаны в рублях</p>
+    <ul class="tabs">
+    <li class="tab-link current" data-tab="tab-1">Юридические услуги</li>
+    <li class="tab-link" data-tab="tab-2">Бухгалтерские услуги</li>
+  </ul>
+
+   <div id="tab-1" class="tab-content current">
     <table style="width: 100%;" class="firm">
       <thead>
         <tr>
-          <td class="title" style="border-right: 1px solid #7b7270; border-bottom: 1px solid #7b7270;">Услуга</td>
-          <td class="title" style="width: 160px; border-right: 1px solid #7b7270; border-bottom: 1px solid #7b7270;">Стоимость</td>
-          <td class="title" style="width: 180px; border-bottom: 1px solid #7b7270;">Срок<br />исполнения</td>
+          <td class="title">Услуга</td>
+          <td class="title">Стоимость</td>
+          <td class="title">Срок<br />исполнения</td>
         </tr>
       </thead>
       <tbody>
@@ -302,8 +307,8 @@
         </tr>
       </tbody>
     </table>
-
-    <div class="payment">  
+  </div>
+    <div id="tab-2" class="tab-content"> 
       <p><span style="color: #057ec8;"><strong>Что понимается под одной операцией?</strong></span></p>
       <p>- до 10 проводок по банку в день;</p>
       <p>- закрывающие документы (акт, счет – фактура, товарная накладная и прочее);</p>
@@ -312,117 +317,111 @@
       <p><span style="color: #057ec8;">Прайс- лист</span></p>
       <p></p>
       <p></p> 
-      <table class="price" cellspacing="0" cellpadding="0">
-      <thead>
-         <tr>
-          <th class="title" style="border-right: 1px solid #7b7270; border-bottom: 1px solid #7b7270;">Вид услуги</th> 
-          <th>Описание</th> 
-          <th>Стоимость</th> 
-          <th>&nbsp;</th>
-        </tr>
-      </thead>
+      <table width="100%" class="price" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <td width="33%"class="title">Вид услуги</td>
+            <td width="33%" class="title">Описание</td>
+            <td width="33%" class="title" colspan="2">Стоимость</td>
+          </tr>
+        </thead>
         <tbody>
-       
-        <tr>
-          <td><a href="nulevaya-otchetnost.html"></a></td>
-          <td class="content"><p>Пакет «Минимум»</p></td>
-          <td class="money">900</td>
-          <td class="zakaz"></td>
-        </tr>
-        <tr>
-          <td><a href="nulevaya-otchetnost.html">Нулевая отчетность</a></td>
-          <td class="content"><p>Пакет «Базовый»</p></td>
-          <td class="money">2000</td>
-          <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-        </tr>
-        <tr>
-          <td><span></span></td>
-          <td class="content"><p>Пакет «Электронный»</p></td>
-          <td class="money">2700</td>
-          <td class="zakaz"></td></tr>
-          <tr class="last">
-            <td><a href="buxgalterskoe-soprovozhdenie-ip.html">Бухгалтерские услуги ИП</a></td>
-            <td class="content"><p>Бухгалтерское сопровождение предпринимателя, подготовка и&nbsp; сдача отчетности</p></td>
-            <td class="money">от 3000 в квартал</td>
-            <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
+          <tr>
+            <td rowspan="3"> <a href="nulevaya-otchetnost.html">Нулевая отчетность</a></td>
+            <td class="content">Пакет «Минимум»</td>
+            <td class="money" style="text-align: center;">900</td>
+            <td class="zakaz" style="text-align: center;"></td>
           </tr>
           <tr>
-            <td><a href="buxgalterskoe-soprovozhdenie-firm.html"></a></td>
-            <td class="content"><p>Пакет «Профи»</p></td>
-            <td class="money">от 1500 в месяц</td>
-            <td class="zakaz"></td></tr>
-            <tr>
-              <td><a href="buxgalterskoe-soprovozhdenie-firm.html">Бухгалтерское сопровождение фирм</a></td>
-              <td class="content"><p>Пакет «Помощь бухгалтера»</p></td>
-              <td class="money">от 3000 в месяц</td>
-              <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-            </tr>
-            <tr>
-              <td><span></span></td>
-              <td class="content"><p>Пакет «Полноценный бухгалтер»</p></td>
-              <td class="money">от 3500 в месяц</td>
-              <td class="zakaz"></td>
-            </tr>
-            <tr class="last">
-              <td><span>Электронно - цифровая подпись для участия в торгах (входят универсальные Федеральные площадки и около 100 коммерческих).</span></td>
-              <td class="content"><p>Изготавливается ключ в течение 3 дней</p></td>
-              <td class="money">7900</td>
-              <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-            </tr>
-            <tr class="last">
-              <td><span></span></td>
-              <td class="content"><p>Изготавливается ключ в течение дня</p></td>
-              <td class="money">15800</td>
-              <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-            </tr>
-            <tr>
-              <td><span>Подключение к электронной подаче отчетности*</span></td>
-              <td class="content"><p><span style="font-size: 90%;">* стоимость подключения включена в 12 месяцев бухгалтерского обслуживания. При расторжении договора ранее 12 мес., стоимость подключения возмещается в 100 % размере</span></p></td>
-              <td class="money">1500</td>
-              <td class="zakaz"></td>
-            </tr>
-            <tr class="last">
-              <td><span>Ключ ЭЦП </span></td>
-              <td class="content"><p>на 1 организация</p></td>
-              <td class="money">1500</td>
-              <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-            </tr>
-            <tr>
-              <td><a href="elektronnay-sdacha-otcheta.html">Электронная сдача отчетности фирм не находящейся на бухгалтерском обслуживании</a></td>
-              <td class="content"><p>при предоставлении отчетности в виде выгрузки</p></td>
-              <td class="money">700</td>
-              <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-            </tr>
-            <tr>
-              <td><span></span></td>
-              <td class="content"><p>при внесении отчетности в ручную (нет выгрузки или выгрузка с не последними обновлениями)</p></td>
-              <td class="money">1200</td>
-              <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-            </tr>
-            <tr class="last">
-              <td><span>Электронная подача о применение / снятие торгового сбора</span></td>
-              <td class="content"></td>
-              <td class="money">1500</td>
-              <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-            </tr>
-            <tr>
-              <td><span></span></td>
-              <td class="content"><p>электронная</p></td>
-              <td class="money">300</td>
-              <td class="zakaz"></td></tr>
-              <tr>
-                <td><a href="http://www.ufreg.com/dopolnitelnye-uslugi/vypiska-iz-egrul.html" target="_blank">Выписка из ЕГРЮЛ</a></td>
-                <td class="content"><p>с печатью налогового органа</p></td>
-                <td class="money">1000</td>
-                <td class="zakaz"><a href="zakazat.html">Заказать</a></td>
-              </tr>
-              <tr>
-                <td><span></span></td>
-                <td class="content"><p>расширенная - с паспортными данными участника и генерального директора</p></td><td class="money">2000</td>
-                <td class="zakaz"></td>
-              </tr>
-            </tbody>
-          </table>
+            <td class="content">Пакет «Базовый»</td>
+            <td class="money" style="text-align: center;">2000</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td class="content">Пакет «Электронный»</td>
+            <td class="money" style="text-align: center;">2700</td>
+            <td class="zakaz" style="text-align: center;"></td>
+          </tr>
+          <tr class="last">
+            <td rowspan="2"><a href="buxgalterskoe-soprovozhdenie-ip.html">Бухгалтерские услуги ИП</a></td>
+            <td class="content">Бухгалтерское сопровождение предпринимателя, подготовка и  сдача отчетности</td>
+            <td class="money" style="text-align: center;">от 3000 в квартал</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td class="content">Пакет «Профи»</td>
+            <td class="money" style="text-align: center;">от 1500 в месяц</td>
+            <td class="zakaz" style="text-align: center;"></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><a href="buxgalterskoe-soprovozhdenie-firm.html">Бухгалтерское сопровождение фирм</a></td>
+            <td class="content">Пакет «Помощь бухгалтера»</td>
+            <td class="money" style="text-align: center;">от 3000 в месяц</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td class="content">Пакет «Полноценный бухгалтер»</td>
+            <td class="money" style="text-align: center;">от 3500 в месяц</td>
+            <td class="zakaz" style="text-align: center;"></td>
+          </tr>
+          <tr class="last">
+            <td rowspan="2">Электронно - цифровая подпись для участия в торгах (входят универсальные Федеральные площадки и около 100 коммерческих).</td>
+            <td class="content">Изготавливается ключ в течение 3 дней</td>
+            <td class="money" style="text-align: center;">7900</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr class="last">
+            <td class="content">Изготавливается ключ в течение дня</td>
+            <td class="money" style="text-align: center;">15800</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Подключение к электронной подаче отчетности*</td>
+            <td class="content"><span style="font-size: 90%;">* стоимость подключения включена в 12 месяцев бухгалтерского обслуживания. При расторжении договора ранее 12 мес., стоимость подключения возмещается в 100 % размере</span></td>
+            <td class="money" style="text-align: center;">1500</td>
+            <td class="zakaz" style="text-align: center;"></td>
+          </tr>
+          <tr class="last">
+            <td>Ключ ЭЦП</td>
+            <td class="content">на 1 организация</td>
+            <td class="money" style="text-align: center;">1500</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><a href="elektronnay-sdacha-otcheta.html">Электронная сдача отчетности фирм не находящейся на бухгалтерском обслуживании</a></td>
+            <td class="content">при предоставлении отчетности в виде выгрузки</td>
+            <td class="money" style="text-align: center;">700</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td class="content">при внесении отчетности в ручную (нет выгрузки или выгрузка с не последними обновлениями)</td>
+            <td class="money" style="text-align: center;">1200</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr class="last">
+            <td>Электронная подача о применение / снятие торгового сбора</td>
+            <td class="content"></td>
+            <td class="money" style="text-align: center;">1500</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td rowspan="3"> <a href="http://www.ufreg.com/dopolnitelnye-uslugi/vypiska-iz-egrul.html" target="_blank">Выписка из ЕГРЮЛ</a></td>
+            <td class="content">электронная</td>
+            <td class="money" style="text-align: center;">300</td>
+            <td class="zakaz" style="text-align: center;"></td>
+          </tr>
+          <tr>
+            <td class="content">с печатью налогового органа</td>
+            <td class="money" style="text-align: center;">1000</td>
+            <td class="zakaz" style="text-align: center;"><a href="zakazat.html">Заказать</a></td>
+          </tr>
+          <tr>
+            <td class="content">расширенная - с паспортными данными участника и генерального директора</td>
+            <td class="money" style="text-align: center;">2000</td>
+            <td class="zakaz" style="text-align: center;"></td>
+          </tr>
+        </tbody>
+      </table>
         </div>
 
       <p>* регистрация включает подготовку документов с участием не более 2-х учредителей, более 2-х см. дополнительные услуги<br /> ** госпошлина оплачивается отдельно<br /> *** индивидуальные проекты уставных документов подготавливаются дополнительно (см. Дополнительные услуги)<br /> **** стоимость кассового аппарата оплачивается отдельно<br /> ***** каждая услуга оплачивается отдельно (предусматривается скидка %, подробности спрашивайте у специалистов)</p>
