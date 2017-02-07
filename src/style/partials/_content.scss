@@ -104,8 +104,7 @@ Content
 	}
 	.tab-content{
 			display: none;
-			padding: 15px;
-		}
+	}
 
 		.tab-content.current{
 			display: inherit;
@@ -113,26 +112,27 @@ Content
 	.tab_usl{
 		position:relative;
 		overflow: hidden;
-	    margin-bottom: 25px;
+	    margin-bottom: 5px;
 	    border-bottom: 1px solid #dfdfdf;
-	    padding: 5px 5px 0 0;
-	    font-size: 13px;
-
-		a {
-			display: block;
-			text-decoration: none;
+	 	ul{
+			li{
+			cursor: pointer;
 			float:left;
 			color:#333;
 			text-transform:uppercase;
 			padding: 10px 12px;
+			margin:0;
+			font-size: 13px;
 			&:hover{
 				background: #dfdfdf;
 			}
 		}
-		.active{
+		.current{
 				background: #dfdfdf;
 				padding: 10px 12px;
 			}
+		}
+		
 		span{
 			margin-bottom: 5px;
 			position:absolute;

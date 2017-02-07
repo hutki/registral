@@ -24,6 +24,19 @@
 		 margin:0 auto 25px;
 		 display: block;
 	}
+	.tab_usl{
+		ul{
+			li{
+				padding: 10px;
+				&:hover{
+				background: #dfdfdf;
+				}
+			}
+			.current{
+				padding: 10px;
+			}
+		}
+	}
 } 
 .footer-block{
 	padding: 20px 10px 0;
