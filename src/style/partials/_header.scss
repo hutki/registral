@@ -135,18 +135,19 @@ nav
 }
 .logo_block
 {
-	max-width:420px;
-	margin:0 auto;
-.logo
-{
-   	position: absolute;
+	width: 100%;
+	position: absolute;
    	top: 180px;
-   	text-align: center;
    	a
    	{
    		text-decoration: none;
    		color: #fff;
+   		display: block;
    	}
+.logo
+{
+	margin:0 auto;
+   	max-width:380px;
    	img
    	{
 		margin-right: 30px;
@@ -177,31 +178,31 @@ nav
    	padding-left:45px;
    	a
    	{
-   		display: block;
    		letter-spacing: 4px;
    	}
 }
+
+//end logo
+}
 #order_e_form{
-	width:75%;
-	margin-top: 50px;
+	max-width:370px;
+	margin: 50px auto;
 	border:1px solid #ccc;
-	position: absolute;
-	left: 70px;
+	
 	&:hover{
 		    background-color: rgba(0,0,0,.25);
 	}
 	a{
 		img{
 			float:left;
-			margin:10px 15px;
+			margin:10px 25px;
 		}
 		p{
 			font-size: 15px;
 			padding: 17px 12px;
+			text-transform: uppercase;
 		}
 	}
-}
-//end logo
 }
 }
 .video_block
