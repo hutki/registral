@@ -137,7 +137,7 @@ nav
 {
 	width: 100%;
 	position: absolute;
-   	top: 180px;
+   	top: 150px;
    	a
    	{
    		text-decoration: none;
@@ -171,11 +171,10 @@ nav
     	}
     }
     .h_phone
-{
+	{
    	text-align: center;
    	margin-top:70px;
    	font-size: 20px;
-   	padding-left:45px;
    	a
    	{
    		letter-spacing: 4px;
@@ -186,7 +185,7 @@ nav
 }
 #order_e_form{
 	max-width:370px;
-	margin: 50px auto;
+	margin: 70px auto;
 	border:1px solid #ccc;
 	
 	&:hover{
@@ -199,7 +198,7 @@ nav
 		}
 		p{
 			font-size: 15px;
-			padding: 17px 12px;
+			padding: 16px 12px;
 			text-transform: uppercase;
 		}
 	}
