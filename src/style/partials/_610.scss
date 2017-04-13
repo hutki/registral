@@ -28,18 +28,23 @@
 		ul{
 			li{
 				padding: 10px;
+				width: 100%;
+    			text-align: center;
 				&:hover{
 				background: #dfdfdf;
 				}
 			}
 			.current{
 				padding: 10px;
+				width: 100%;
+    			text-align: center;
 			}
 		}
 	}
-	table{
+	table, table p, table ul li{
 		font-size: 12px;
 	}
+
 } 
 .footer-block{
 	padding: 20px 10px 0;
