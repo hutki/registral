@@ -9,4 +9,33 @@
 			text-align: center;
 	}
 }
+/*footer*/
+.footer-block {
+	.f_contact {
+		.align_left{
+			width:100%;
+		}
+		.contact_block {
+    	width: 50%;
+		}
+		.adr_block{
+			text-align:center;
+			.f_add{
+				width:335px;
+			}
+
+		}
+
+		.form_block {
+    	width:50%;
+    	text-align: right;
+    	.feedback_foot{
+			display:inline-block;
+			text-align:left;
+    	}
+		
+	}
+} 
+
+}
 }

@@ -31,14 +31,28 @@
 		font-size: 10px;
 	}
 }
-.footer-block {
+
+.footer-block{
 	.f_contact {
-		margin-bottom: 0;
-		.f_tel{
-			margin-bottom: 5px;
+		margin-bottom:0;
+		.contact_block{
+			float:none;
+			margin: 0 auto;
 		}
+		.f_tel{
+			margin-bottom:5px;
+		}
+		.f_add{
+			
+		}
+	 	
 	}
 }
+
+
+
+
+
 .copyrait {
 	.perm{
 		width: 100%;
