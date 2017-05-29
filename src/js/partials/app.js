@@ -3,7 +3,6 @@
 $.fn.menu = function () {
 	var obj = $(this);
 	var ww = $(window).width();
-
 if (ww >= 981&& obj.find('li').hasClass("active")) {
 
 
@@ -53,6 +52,32 @@ $.fn.m2Menu = function() {
 		}
 //end раскрытие списка в мобилке		
 
+$.fn.scrollmenu = function() {
+		
+var ww = $(window).width();
+if (ww >= 981) {
+$(window).on("scroll", function () {
+    var scrolled = $(this).scrollTop();
+    if( scrolled > 530 ) {
+        $('.scroll-menu').fadeIn(300);
+    }   
+    if( scrolled <= 530 ) {     
+        $('.scroll-menu').fadeOut(300);
+    }
+});
+}
+else{
+	$('.scroll-menu').css({'display': 'none'});
+}
+		}
+
+
+
+
+
+
+
+
 $.fn.wrapTable = function () {
 	var ww = $(window).width();
 if (ww <= 981) {
@@ -95,6 +120,7 @@ obj.find('.prev').click(function(){
 
 $(document).ready(function(e){
 	$('#menu').menu();
+	$('scroll-menu').scrollmenu();
 	$('table').wrapTable(400);
 	$('.m_menu').mMenu(400);
 	$('#mob_menu').m2Menu();

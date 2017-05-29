@@ -6,7 +6,7 @@ footer{
 	.footer-img{
 		position:absolute;
 		width:100%;
-		height: 185px;
+		height: 250px;
 	    background: url(../img/city.png) repeat-x left top;
 	    opacity: 0.1;
 	    z-index: -1;
@@ -14,18 +14,49 @@ footer{
 }
 .footer-block {
 	margin:0 auto;
-	padding: 50px  10px 0;
+	padding: 0 10px;
 	max-width:1100px;
 	letter-spacing:1px;
 		.f_contact{
 			max-width: 100%;
 			.contact_block{
 				float: left;
-				width: 50%
+				width: 33.3333%
 			}
 			.align_left{
 				text-align: right;
 			}
+			.form_block{
+				float: left;
+				width: 33.3333%;
+			.feedback_foot{
+				
+				p{
+					font-size: 12px;
+					margin-bottom: 10px;
+				}
+				input{
+					background: #f2f2f2;
+					border: 1px solid #ccc;
+					
+				}
+				td{
+					padding-bottom: 4px;
+
+				}
+				#submit{
+					color: #333;
+					font-size: 14px;
+					padding: 2px 3px;
+					cursor: pointer;
+					&:hover{
+							outline: 1px solid #dfdfdf;
+					}
+				}
+
+
+			}
+		}
 			.f_tel{
 				max-width: 200px;
 				font-size: 18px;
@@ -37,11 +68,15 @@ footer{
 						margin-bottom: 10px;
 					}
 				}
+				#date_foot{
+					margin-top: 15px;
+					text-align: center;
+				}
 			}
 			.f_add{
 				font-size: 15px;
 				color: #000;
-				width: 335px;
+				width: 100%;
 				text-align: left;
 				display: inline-block;;
 					p{
@@ -68,11 +103,66 @@ footer{
 							right: 0;
 						}
 					}
+					#search{
+	
+	border: 1px solid #ccc;
+	outline: none;
+   	width: 100%;
+   	height:27px;
+   	background: #f2f2f2;
+   	margin-top: 10px;
+   	   	
+    ::-webkit-input-placeholder{
+       	color: #333;
+       	text-transform: uppercase;
+       	font-size: 12px;
+    }
+    ::-moz-placeholder{ /* Firefox 19+ */
+	    color: #333;
+    	text-transform: uppercase;
+   		font-size: 12px;
+    }
+	:-ms-input-placeholder{
+    	color: #333;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    :-moz-placeholder{ /* Firefox 18- */
+        color: #333;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+	
+	input[type="text"]{
+		font-family: GothamProLight;
+		font-size: 13px;
+		width:70%;
+		padding: 7px 12px;
+		color: #333;
+		outline: none;
+		border: none;
+		background: none;
+		}
+	input[type="text"]:focus{
+			
+	}
+	input[type="submit"]{
+		border: none;
+		background: url(../img/search_mob.png) no-repeat center center;
+		display: block;
+		width: 10%;
+		height: 19px;
+		cursor: pointer;
+		text-indent: -9999px;
+		float: right;
+		margin:4px 7px;
+	}
+}
 			}
 		}
 }
 .copyrait{
-	margin: 30px auto 0;
+	margin: 15px auto 0;
 	color: #8f8f8f;
 	font-size: 12px;
 	.perm{

@@ -21,6 +21,9 @@ Content
 				display: inline-block;
 				position: relative;
 				text-align: left;
+				a {
+					display: block;
+					text-decoration: none;
 			h2{
 				color: #004284;
 				font-weight: lighter;
@@ -30,6 +33,7 @@ Content
 				height: 32px;
 			}
 			p{
+			color: #333;
 			padding: 20px 0;
 			box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
   			-moz-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
@@ -39,13 +43,12 @@ Content
 			}
 			.price_block{
 				margin-top: 10px;
+				color: #333;
 				.price{
 					padding-top: 4px;
 					display: inline-block;
 				}
-				a{
-
-					color: #333;
+				.order{				
 					position: absolute;
 					right: 0;
 					text-decoration: none;
@@ -58,6 +61,7 @@ Content
 				}
 			}
 		}
+		}
 	}
 	article:nth-child(3n+2){
 		text-align: center;
@@ -67,6 +71,7 @@ Content
 		}
 }
 #content_block{
+	color: #000;
 	letter-spacing: 1px;
 	padding: 0 10px;
 	h1{

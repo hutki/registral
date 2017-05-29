@@ -77,61 +77,7 @@ nav
 		left:0;
 	}
 }
-#search{
-	position:absolute;
-	right: 30px;
-	top:10px;
-	border: 1px solid #ccc;
-	outline: none;
-   	width: 227px;
-   	height:27px;
-   	   	
-    ::-webkit-input-placeholder{
-       	color: #fff;
-       	text-transform: uppercase;
-       	font-size: 12px;
-    }
-    ::-moz-placeholder{ /* Firefox 19+ */
-	    color: #fff;
-    	text-transform: uppercase;
-   		font-size: 12px;
-    }
-	:-ms-input-placeholder{
-    	color: #fff;
-        text-transform: uppercase;
-        font-size: 12px;
-    }
-    :-moz-placeholder{ /* Firefox 18- */
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 12px;
-    }
-	
-	input[type="text"]{
-		font-family: GothamProLight;
-		font-size: 13px;
-		width: 170px;
-		padding: 7px 12px;
-		color: #fff;
-		outline: none;
-		border: none;
-		background: none;
-		}
-	input[type="text"]:focus{
-			
-	}
-	input[type="submit"]{
-		border: none;
-		background: url(../img/search.png) no-repeat center center;
-		display: block;
-		width: 19px;
-		height: 19px;
-		cursor: pointer;
-		text-indent: -9999px;
-		float: right;
-		margin:4px 7px;
-	}
-}
+
 }
 .logo_block
 {
@@ -301,3 +247,80 @@ nav
 	}
 }
 /*************** END HEADER********************/
+/**************scroll menu********************/
+.scroll-menu
+{
+	position: relative;
+	box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+ 	-moz-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+ 	-webkit-box-shadow: inset 0px -1px 0px white, inset 0px 0px 0px rgba(255, 255, 255, 0.4), 0px 0px 0px rgba(0, 0, 0, 0.8);
+	border-bottom: 1px solid #dfdfdf;
+	text-transform: uppercase;
+	font-size: 14px;
+	clear: both;
+	position: fixed;
+    top: 0;
+    z-index: 999;
+    background: #f2f2f2;
+    width: 100%;
+    opacity: 0.96;
+    display: none;
+    .scroll_menu_wrap{
+    	max-width: 1100px;
+    	margin: 0 auto;
+	ul
+	{
+		max-width: 1100px;
+		margin: 0 auto;
+		height: 60px;
+		text-align: center;
+		li
+		{
+			list-style-type: none;
+			padding: 0 25px;
+			cursor: pointer;
+			zoom: 1;
+			line-height: 60px;
+			*display: inline !important;
+			display: inline-block;
+			a{
+				text-decoration: none;
+				color: #333;
+				&:hover
+				{
+					color: #004284;
+				}
+			}
+			span{
+				font-size: 20px;
+				cursor: default;
+				}
+		}
+	}
+	.logo_block_scroll{
+				margin: 7px 0 0 20px;
+    			float: left;
+				display: block;	
+				a{
+			   		text-decoration: none;
+			   		color: #333;
+			   	}
+			   	img{
+					margin-right: 10px;
+			   	}
+			   	#logo_txt{
+			   		float: right;
+			   		h1{
+			   			margin: 0;
+			    		text-transform: uppercase;
+			    		font-weight: lighter;
+			    		font-size: 27px;
+			    	}
+			   		p{
+			   			letter-spacing: 1px;
+			   			font-size: 10px;
+			    	}
+			    }
+			}
+	}		
+}
