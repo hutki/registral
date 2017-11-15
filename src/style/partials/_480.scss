@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+  footer .footer-img {
+    height: 415px;
+  }
+  .footer-block {
+    padding-top: 10px;
+  }
+  .footer-block .f_contact {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .footer-block .f_contact .contact_block {
+    float: none;
+    display: inline-block;
+    width: 226px;
+  }
+  .footer-block .f_contact .contact_block #search {
+    max-width: 226px;
+    display: inline-block;
+  }
+  .footer-block .f_contact .form_block {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .footer-block .f_contact .f_tel {
+    margin-bottom: 5px;
+    width: 226px;
+  }
+  .footer-block .f_contact .f_add {
+    margin: 10px 0;
+  }
+}

@@ -59,15 +59,15 @@ if (ww >= 981) {
 $(window).on("scroll", function () {
     var scrolled = $(this).scrollTop();
     if( scrolled > 530 ) {
-        $('.scroll-menu').fadeIn(300);
+        $('#sc-menu-home').fadeIn(300);
     }   
     if( scrolled <= 530 ) {     
-        $('.scroll-menu').fadeOut(300);
+        $('#sc-menu-home').fadeOut(300);
     }
 });
 }
 else{
-	$('.scroll-menu').css({'display': 'none'});
+	$('#sc-menu-home').css({'display': 'none'});
 }
 		}
 
@@ -120,7 +120,7 @@ obj.find('.prev').click(function(){
 
 $(document).ready(function(e){
 	$('#menu').menu();
-	$('scroll-menu').scrollmenu();
+	$('#sc-menu-home').scrollmenu();
 	$('table').wrapTable(400);
 	$('.m_menu').mMenu(400);
 	$('#mob_menu').m2Menu();
